@@ -1,0 +1,81 @@
+/* Light Mode */
+:root {
+    --color-bg: #ffffff;
+    --color-bg2: #f4f4f4;
+    --color-text: #333333;
+    --color-toggle-accent: #ff7900;
+}
+
+/* Dark Mode */
+html.dark {
+    --color-bg: #121212;
+    --color-bg2: #1e1e1e;
+    --color-text: #fafafa;
+    --color-toggle-accent: #a076ce;
+}
+
+/* Global Styles */
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--color-bg2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#task-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#add-task {
+    padding: 10px 20px;
+    background-color: var(--color-toggle-accent);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task:hover {
+    background-color: #ff6000;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: var(--color-bg2);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#color-mode-switch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
