@@ -81,17 +81,8 @@ A simple, interactive to-do list application that allows users to:
 
 ---
 
-### Demo
-
-If hosted online (e.g., on GitHub Pages or Netlify), provide the link:
-[Live Demo](https://subhamgiri16.github.io/todo-dark-mode)
-
----
-
 ### License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to modify this README file to include specific details about your project. Save this content as `README.md` in your project directory. If you need help with hosting or customization, let me know!
